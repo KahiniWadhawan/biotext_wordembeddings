@@ -1,4 +1,4 @@
-##### This is modified geniass - genia sentence splitter code. Modified some files to extract the genia tokenizer output. 
+# This is modified geniass - genia sentence splitter code. Modified some files to extract the genia tokenizer output. 
 
 ##### Files modified: 
 1. tokenize.cpp - modified it to write tokenizer output to files. 
