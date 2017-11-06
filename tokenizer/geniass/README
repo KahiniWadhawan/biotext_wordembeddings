@@ -1,11 +1,13 @@
-This is modified geniass - genia sentence splitter code. Modified some files to extract the genia tokenizer output. 
+##### This is modified geniass - genia sentence splitter code. Modified some files to extract the genia tokenizer output. 
 
-Files modified: 
+##### Files modified: 
 1. tokenize.cpp - modified it to write tokenizer output to files. 
 
-To run the tokenizer code: 
-1. tokenizer.py is the main file that takes in input dir(dir having text files to be tokenized) and 
-output dir(dir to have tokenzied text files). Internally it calls tokenize.cpp and do the job. 
+##### To run the tokenizer code: 
+1. tokenizer.py is the main file that takes in input dir(dir having text files to be tokenized, input dir should be a flat dir)
+and output dir(dir to have tokenzied text files). Internally it calls tokenize.cpp and do the job. 
+
+ + python tokenizer.py --ip_dir "path to input flat dir"  --op_dir "path for creating output dir"
 
 
 
