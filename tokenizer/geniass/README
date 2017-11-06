@@ -6,8 +6,6 @@ Files modified:
 To run the tokenizer code: 
 1. tokenizer.py is the main file that takes in input dir(dir having text files to be tokenized) and 
 output dir(dir to have tokenzied text files). Internally it calls tokenize.cpp and do the job. 
-2. tokenizer_job.sh - this is required to run jobs on Janus(university cluster). 
-
 
 
 
